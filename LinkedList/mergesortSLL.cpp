@@ -65,13 +65,13 @@ public:
 
       ListNode * mid =findmid(head);
       ListNode * nextmid=mid->next;
-    
+      // cout<<nextmid->val<<" "<<mid->val<<endl;
       mid->next=NULL;
 
       auto l=solve(head);
       auto r=solve(nextmid);
       return merge(l,r);
-     
+      // return NULL;
     }
 
 
@@ -79,8 +79,14 @@ public:
 
       if(head==NULL or head->next==NULL) return head;
 
+      // ListNode *end=head;
+
+      // while(end->next!=NULL) end=end->next;
       return solve(head);
-      
+      // return findmid(head);
+      // merge(head);
+      // cout<<head->val<<endl;
+      // return head;
         
     }
 };
