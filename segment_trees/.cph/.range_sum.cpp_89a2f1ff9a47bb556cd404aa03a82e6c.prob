@@ -1,0 +1,1 @@
+{"name":"Local: range_sum","url":"c:\\Users\\dell.DESKTOP-9INKTNB\\DailyDsa\\segment_trees\\range_sum.cpp","tests":[{"id":1679845809058,"input":"4\n0\n4\n2\n3\n1\n4\n3\n3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\dell.DESKTOP-9INKTNB\\DailyDsa\\segment_trees\\range_sum.cpp","group":"local","local":true}
